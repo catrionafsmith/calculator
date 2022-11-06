@@ -1,29 +1,33 @@
 body {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    background-image: url("maths3.jpeg");
 }
 
 button {
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: aqua;
     font-family: 'Courier New', Courier, monospace;
     font-size: x-large;
     font-weight: 900;
+    /* border: 1px solid; */
+    /* color: #542E71; */
 }
+
 
 .outer {
     border: 2px solid black;
     padding: 10px;
     width: 420px;
     margin: 20px auto;
-    border-radius: 5px;
-    background-color: lightgrey;
+    border-radius: 15px;
+    background-color: #6A66A3;
 }
 
 .display {
     width: 390px;
     height: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 0 auto;
     border: 2px solid ;
     line-height: 100px;
@@ -59,13 +63,13 @@ button {
 }
 
 .clear {
-    background-color: lightpink;
+    background-color: #DDD8B8;
 }
 
 .fun {
-    background-color: paleturquoise;
+    background-color: #B3CBB9;
 }
 
 .num {
-    background-color: palegoldenrod;
+    background-color: #84A9C0;
 }
